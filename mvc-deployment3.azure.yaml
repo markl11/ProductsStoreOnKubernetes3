@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mvc3
-        image: markl11/products-store-mvc3:#{Build.BuildId}#
+        image: markl11/products-store-mvc3:v2.#{Build.BuildId}#
         ports:
         - containerPort: 80
         env:
